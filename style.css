@@ -1,0 +1,106 @@
+.main {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+}
+.ear1 {
+  width: 70px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 90px 90px 0px 0px;
+  position: relative;
+  top: 70px;
+  right: 90px;
+  transform: rotate(-30deg);
+}
+.ear2 {
+  width: 70px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 90px 90px 0px 0px;
+  position: relative;
+  top: 25px;
+  left: 90px;
+  transform: rotate(30deg);
+}
+.face {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 250px 250px 250px 250px;
+}
+.eye1 {
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 25px 25px 25px 25px;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+.eye2 {
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 25px 25px 25px 25px;
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+.r1 {
+  width: 15px;
+  height: 15px;
+  border: 1.5px solid black;
+  border-radius: 8px 8px 8px;
+  position: relative;
+  top: 12px;
+}
+.r2 {
+  width: 15px;
+  height: 15px;
+  border: 1.5px solid black;
+  border-radius: 8px 8px 8px;
+  position: relative;
+  top: 12px;
+}
+.nose {
+  width: 150px;
+  height: 50px;
+  border: 1.5px solid black;
+  border-radius: 40px 40px 40px 40px;
+  position: relative;
+  top: 50px;
+}
+.h1 {
+  width: 20px;
+  height: 32px;
+  border: 1.5px solid black;
+  border-radius: 16px 16px 16px 16px;
+  position: relative;
+  top: 8px;
+  right: 40px;
+}
+.h2 {
+  width: 20px;
+  height: 32px;
+  border: 1.5px solid black;
+  border-radius: 16px 16px 16px 16px;
+  background-color: black;
+  position: relative;
+  bottom: 25px;
+  left: 30px;
+}
+.ear1,
+.ear2,
+.face {
+  background-color: pink;
+}
+.nose {
+  background-color: #d15ae6;
+}
+.r1,
+.r2,
+.h1,
+.h2 {
+  background-color: black;
+}
